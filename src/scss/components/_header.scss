@@ -1,0 +1,37 @@
+header{
+  padding: 0 var(--padding-thin);
+
+  img{
+    width: 50px;
+    margin-right: 20px;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  div.title h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: $vw-medium){
+  header{
+    .wrapper{
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    li{
+      margin-left: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.button{
+  background: var(--color-gradient);
+  padding: var(--padding-thin) var(--padding-large);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  &:link,&:visited,&:hover,&:active,&:focus{
+      color: var(--color-text-secondary);
+      text-decoration: none;
+  }
+}
